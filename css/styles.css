@@ -71,3 +71,68 @@ a {
 .navbar__right-btn > a:active {
   background-color: #3c7ae4;
 }
+
+.google__logo {
+  width: fit-content;
+  margin: 93px auto 22px;
+}
+
+.google__form {
+  width: fit-content;
+  margin: auto;
+  position: relative;
+}
+
+.google__form > input {
+  font-size: 1rem;
+  padding: 14px 357px 15px 49px;
+  border-radius: 50px;
+  outline: none;
+  border: 1px solid rgb(226, 219, 219);
+  box-shadow: 1px 1px 1px rgba(129, 128, 128, 0.2);
+}
+
+.google__search,
+.google__mic {
+  max-width: 15px;
+  position: absolute;
+}
+
+.google__search {
+  left: 20px;
+  top: 17px;
+}
+
+.google__mic {
+  right: 22px;
+  top: 13px;
+}
+
+.google__links {
+  font-size: 14px;
+  text-align: center;
+  margin-top: 38px;
+}
+
+.google__links > span {
+  padding: 10px 17px;
+  background-color: rgb(241, 237, 237);
+  border: 1px solid rgb(241, 237, 237);
+  border-radius: 5px;
+}
+
+.google__links > span:hover {
+  border: 1px solid rgb(187, 182, 182);
+}
+
+.google__links a:hover {
+  color: #000;
+}
+
+.google__links > span:first-of-type {
+  margin-right: 8px;
+}
+
+.google__links a {
+  color: rgb(90, 89, 89);
+}
